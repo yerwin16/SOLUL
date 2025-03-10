@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 20px auto;
+    padding: 5px;
+    border: 20px double green;
+}
+.caja2{
+    width: 30px;
+    height: 30px;
+    background: blue;
+    margin: 15px auto;
+    padding: 5px;
+    border: 5px double purple;
+}
+.caja3{
+    width: 66px;
+    height: 33px;
+    background: hotpink;
+    margin: 10px auto;
+    padding: 10px;
+    border: 10px double lawngreen;
+}
+.caja4{
+    width: 130px;
+    height: 130px;
+    background: brown;
+    margin: 40px auto;
+    padding: 10px;
+    border: 40px double whitesmoke;
+}
+.caja5{
+    width: 30px;
+    height: 50px;
+    background: tomato;
+    margin: 60px auto;
+    padding: 10px;
+}
+.caja6{
+    width: 300px;
+    height: 100px;
+    background: navy;
+    margin: 80px auto;
+    padding: 30px;
+    border: 80px double rebeccapurple;
+}
+.caja7{
+    width: 600px;
+    height: 1000px;
+    background: skyblue;
+    margin: 50px auto;
+    padding: 20px;
+    border: 60px double green;
+}
+.caja8{
+    width: 65;
+    height: 100px;
+    background: chocolate;
+    padding: 5px;
+    border: 15px double orangered;
+}
+.caja9{
+    width: 350px;
+    height: 70px;
+    background: red;
+    margin: 5px auto;
+    padding: 10px;
+    border: 5px double rgb(40, 68, 153);
+}
+.caja10{
+    width: 30px;
+    height: 100px;
+    background: green;
+    margin: 20px auto;
+    padding: 5px;
+    border: 2px double burlywood;
+}

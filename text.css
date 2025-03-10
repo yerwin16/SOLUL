@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Mine';
+    src: url('font/Minecrafter.Reg.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  .mine{
+    font-family: "Mine";
+}
+
+span{
+    font-family: "Arial";
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+}
+.t1{
+    font-family: "Arial Black";
+    font-size: 30px;
+    font-style: normal;
+    font-weight:200;
+}
+.t2{
+    font-family: "Calibri";
+    font-size: 40px;
+    font-style: oblique;
+    font-weight:300;
+}
+.t3{
+    font-family: "Times New Roman";
+    font-size: 50px;
+    font-style: italic;
+    font-weight:400;
+}
+.t4{
+    font-family: "Comic Sans MS";
+    font-size: 60px;
+    font-style: inherit;
+    font-weight:500;
+}
+.d1{
+    text-decoration: 2px dashed  overline gold;
+}
+.d2{
+    text-decoration: 7px double  underline red;
+}
+.d3{
+    text-decoration: 5px dotted  line-through green;
+}
+.texto{
+    text-shadow: 0 0 5px yellow;
+}
+]
