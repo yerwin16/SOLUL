@@ -1,0 +1,33 @@
+*{
+    margin 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: purple;
+}
+@media(min-width: 400px) and (max-width: 800px){
+    body{
+        background: red;
+    }
+}
+@media(min-width: 200px) and (max-width: 400px){
+    body{
+        background: blue;
+    }
+}
+@media(min-width: 100px) and (max-width: 200px){
+    body{
+        background: green;
+    }
+}
+@media(min-width: 800px) and (max-width: 1600px){
+    body{
+        background: orangered;
+    }
+}
+@media(min-width: 1600px) and (max-width: 3200px){
+    body{
+        background: yellow;
+    }
+}

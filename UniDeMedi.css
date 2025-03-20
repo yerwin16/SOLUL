@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(26,6,150,1) 47%, rgba(0,246,255,1) 100%);
+}
+img{
+    border: 3px solid yellow;
+    display: block;
+    margin: 20px auto;
+}
+.unidadpx{
+    width: 200px;
+    height: 200px;
+}
+.unidadcm{
+    width: 20cm;
+    height: 20cm;
+}
+.unidadmm{
+    width: 20mm;
+    height: 20mm;
+}
+.unidadq{
+    width: 20q;
+    height: 20q;
+}
+.unidadin{
+    width: 20in;
+    height: 20in;
+}
+.unidadpt{
+    width: 20pt;
+    height: 20pt;
+}
+.unidadpc{
+    width: 20pc;
+    height: 20pc;
+}

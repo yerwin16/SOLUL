@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  border: 2px solid yellow;
+  margin: 10px;
+  padding: 5px;
+  color: yellow;  
+}
+.hol1{
+    /estatico/
+    position: static;
+    top: 100px;
+    left: 100px;
+    background: green;
+}
+.hol2{
+    /Relativo/
+    position: relative;
+    top:100px;
+    left:250px;
+    background: blue;
+}
+.hol3{
+    /Absoluto/
+    position:absolute;
+    top: 0;
+    left: 0;
+    background: rgb(8, 90, 122);
+    z-index: 5;
+    opacity: 0.5; 
+}
+.abs2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgb(8, 90, 122);
+}
+.abs3{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgb(8, 90, 122);
+}
+.abs4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgb(8, 90, 122);
+}
+.hol4{
+    /Fijo/
+    position: fixed;
+    top: 250px;
+    right: 0;
+    background: pink;
+}
+.hol5{
+    /Pegajoso/
+    position: sticky;
+    top: 100px;
+    right: 100px;
+    background: purple;
+}
+.cuadro{
+    position: absolute;
+    top: 280px;
+    left: 500px;
+    background: rgba(106, 198, 21, 0.5);
+}
+.cuadro1{
+    position: absolute;
+    top: 300px;
+    left: 510px;
+    background: rgba(93, 22, 150, 0.5);
+}
+.cuadro2{
+    position: absolute;
+    top: 320px;
+    left: 520px;
+    background: rgba(217, 165, 52, 0.5);    
+}
+.cuadro3{
+    position: absolute;
+    top: 340px;
+    left: 530px;
+    background: rgba(26, 226, 146, 0.5);  
+}
